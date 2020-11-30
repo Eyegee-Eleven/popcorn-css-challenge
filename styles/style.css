@@ -1,0 +1,52 @@
+/*COLORS:
+Header background -#FFDBAA
+button - #805215
+Header Text - #553100
+Main background - #D4A76A*/
+
+*{
+    font-family: Arial;
+}
+.nav{
+    background-color: #FFDBAA;
+  }
+#logo {
+    color:#553100;
+    font-size: 30px;
+    padding:50px 50px 50px;
+    display: inline;
+}
+button{
+    background-color: #805215;
+}
+body{
+    background-color:#D4A76A;
+}
+section{
+    margin: 20px;
+    border: 20px;
+    padding: 20px;
+    background-color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: right;
+  }
+  
+li a{
+    display: inline;
+    background-color: #805215 ;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    margin:25px;
+    padding: 50px 40px;
+    
+}
