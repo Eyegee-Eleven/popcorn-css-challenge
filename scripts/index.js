@@ -1,25 +1,30 @@
 
-
-window.onload=function(){
 //Alert
 let discountFlights=document.getElementById("discFlights");
 discountFlights.addEventListener("click", function(){
     window.alert("Splash! We're all in!!");
   });
-
 //For About Us to dissapear
-let aboutUs=document.getElementById("002");
+let aboutUs=document.getElementById("lgcard");
 aboutUs.addEventListener("click", function(){
-   aboutUs.remove();
-   //create a new element <pre><>
-   //let moreInfo= document.getElementsByClassName('card large-card').createElement('pre');
-   //moreInfo.innerHTML = 'facts about Cecil and Vivien'
-   document.getElementById("card large-card").innerHTML = 'facts about Cecil and Vivien';
-   //use inner html elment to append
-   //document.write('facts about Cecil and Vivien');
-  
-
+    aboutUs.remove();
+    let para = document.createElement("P");               // Create a <p> element
+    para.innerText = "Vivien: likes Hawaii, Cecil: is in a South Korean Documentary";               // Insert text
+    document.getElementById("0023").appendChild(para);      
 });
 
+let gourpRates=documen.createElement("div");
+groupRates.addEventListener("click", function(){
+    
 
+    var x = document.getElementById("gRates");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+    // document.createElement("div");
+    // document.
+    // document.getElementById('main');
+    
 }
